@@ -1,0 +1,125 @@
+/*
+TABLE OF CONTENTS
+----------------
+I. FONTS
+II. HTML BODY and react app
+III. HEADERS
+IV. p and div classes 
+V. TEXT AND BUTTONS
+VI. SPECIAL OBJECTS 
+*/
+
+
+
+/*SECTION I*/
+.heading-font {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.body-font {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+.alt-font {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.aboutPoint{
+  color: black;
+}
+
+/*SECTION II*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  color: #C0C0C0;
+  background: #000066; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(black, blue, white);
+
+}
+.app{
+  color: #C0C0C0;
+  background: #000066; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(black, blue, white);
+}
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #fdcc52;
+}
+a:hover,
+a:focus {
+  color: #fcbd20;
+}
+
+/*SECTION III*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.jumbotron{
+  background:  black;
+
+
+/*SECTION IV*/
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/*SECTION V*/
+.text-primary {
+  color: #fdcc52;
+}
+
+.btn-outline {
+  color: white;
+  border-color: white;
+  border: 1px solid;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: white;
+  background-color: #5fc536;
+  border-color: #5fc536;
+}
+.btn {
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 300px;
+  color:black;
+}
+
+/*SECTION VI*/
+#loginContainer{
+	float: right;
+}
+.starSignIcon{
+	height: 150px;
+	width: 150px;
+}
+.zodiac {
+    height: 400px;
+  width: 400px;
+}
+#login-form{
+  float: right;
+}
+.btn-login{
+  background-color: green;
+}
